@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+  }
+  /*Menu*/
+  header {
+    height: 85px;
+    background-image: radial-gradient(circle at 114.23% 38.68%, #cde836 0, #b1e12f 16.67%, #8fd723 33.33%, #63c80f 50%, #23b900 66.67%, #00ad04 83.33%, #00a517 100%);
+  }
+  
+  
+  .logo img {
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+  
+  }
+  
+  
+  .logo {
+    float: left;
+  }
+  
+  
+  .menu {
+    float: right;
+  }
+  
+  
+  .menu ul {
+    margin-top: 30px;
+  }
+  
+  
+  .menu li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  
+  
+  .menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #13c288;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .menu a:hover {
+    background-color: #ffffff;
+  }
+  
+  .menu a:hover {
+    color: #f6b63b;
+    font-weight: normal;
+  }
+  
+.containersobre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+}
+
+.conteudosobre h1{
+    color: #00a517;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.conteudosobre p{
+    border: solid green 10px;
+    margin-bottom: 15px;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+footer{
+  background-color: #f8f8f8;
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.footer-col{
+    padding: 0 50px;
+    width: 25%;
+    display: grid;
+}
+
+.footer-col h4{
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.footer-col .form-insc input {
+    flex: 1px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.footer-col .form-insc button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+}
+
+/*media query*/
+@media (max-width: 850px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 600px){
+    .footer-col{
+        width: 100%;
+    }
+}
+
+#linktopo{
+  text-decoration: none;
+  color: #13c288;
+  font-size: 20px;
+  background-color: #00a517;
+  padding: 10px;
+  right: 30px;
+  position: fixed;
+  bottom: 30px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+/*rodapé*/
+.rodape{
+  background: rgb(67, 141, 44);
+  text-align: center;
+}
+
+.container-blocos{
+  display: flex;
+  justify-content: center;
+}
+
+.links-medias{
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.links-medias a{
+  color: white;
+}
+
+.container-direitos{
+  width: 100%;
+  text-align: center;
+}
+
+.container-direitos a{
+  text-decoration: none;
+  color: black;
+}
